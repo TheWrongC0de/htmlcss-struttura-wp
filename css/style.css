@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;;
+  border: 0;
+}
+.container{
+  background-image: url("../img/legno background.jpg");
+  height: 100vh;
+}
+.bluesolitario{
+  background-color: blue;
+  height: 150px;
+  width: 400px;
+  position: relative;
+  left: 35%;
+}
+.ctntabella{
+  background-color: #000000;
+  height: 50vh;
+  width: 400px;
+  left: 35%;
+  bottom: 20vh;
+  position: absolute;
+  opacity: 0.80;
+  filter:alpha(opacity=80);
+
+}
+.rosso{
+ background-color: red;
+ height: 150px;
+ width: 70px;
+}
+.giallo{
+  background-color: yellow;
+  height: 75px;
+  width: 200px;
+  position: absolute;
+  left: 25%;
+  bottom: 75%;
+
+}
+.verde{
+  background-color: green;
+  height: 120px;
+  width: 70px;
+  float: right;
+  position: static;
+  clear: left;
+}
