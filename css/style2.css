@@ -4,26 +4,23 @@
   border:0;
   box-sizing: border-box;
 }
-
 .container{
   width: 70vw;
-  margin:auto;
+  margin: auto;
 }
 /* parte header */
-header{
+  header{
   height: 150px;
   background-color: lightblue;
-
 }
 /* parte section */
-section{
-/*height: 600px;*/
-background-color: lightgreen;
-
- }
-
+  section{
+   height: 600px;
+   background-color: lightgreen;
+}
  .floatcontainer{
    background-color: green;
+   height: 550px;
  }
 
  .floatcontainer::after{
@@ -39,8 +36,7 @@ background-color: lightgreen;
    background-color: white;
    border: 1px solid black;
  }
-
- .contenutoprincipale{
+.contenutoprincipale{
    float: left;
    height: 150px;
    width: 50%;
@@ -48,9 +44,7 @@ background-color: lightgreen;
    border: 1px solid black;
    margin-left: 5px;
    margin-right: 5px;
-
  }
-
  .widget{
    float: left;
    width: 20%;
@@ -66,9 +60,5 @@ background-color: lightgreen;
 /* parte footer */
 footer{
   height: 100px;
-  background-color: yellow;
-}
-
-
-
+  background-color: gray;
 }
