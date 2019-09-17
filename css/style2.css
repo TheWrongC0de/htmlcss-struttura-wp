@@ -15,12 +15,12 @@
 }
 /* parte section */
   section{
-   height: 600px;
-   background-color: lightgreen;
+
+   background-color: white;
 }
  .floatcontainer{
    background-color: green;
-   height: 550px;
+
  }
 
  .floatcontainer::after{
