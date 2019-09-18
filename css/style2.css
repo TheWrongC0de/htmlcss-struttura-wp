@@ -51,11 +51,13 @@
    height: 500px;
    background-color: white;
    border: 1px solid black;
+   box-sizing: border-box;
  }
 .wid{
   background-color: white;
   height: 100px;
   margin-bottom: 20px;
+  box-sizing: border-box;
 }
 /* parte footer */
 footer{
